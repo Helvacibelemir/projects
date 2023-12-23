@@ -38,7 +38,7 @@ public class account {
             System.out.println("Totalsalary is"+"\t"+totalSalary);
         }
 
-       else if(workingTime>30 || workingTime<0){
+       else {
 
             System.out.println("wrong input");
         }
