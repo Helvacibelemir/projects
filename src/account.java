@@ -27,19 +27,20 @@ public class account {
 
     public void extra(){
 
-        if(workingTime>30 || workingTime<0){
-
-            System.out.println("wrong input");
-        }
-       else if(workingTime>25 && workingTime<=30) {
+        if(workingTime>25 && workingTime<=30) {
 
            totalSalary=extraCalculate()+calculate();
             System.out.println("Totalsalary is"+"\t"+totalSalary);
         }
-        else if(workingTime<=25) {
+        else if(workingTime<=25 && workingTime>0) {
 
             totalSalary=calculate();
             System.out.println("Totalsalary is"+"\t"+totalSalary);
+        }
+
+       else if(workingTime>30 || workingTime<0){
+
+            System.out.println("wrong input");
         }
         }
 
