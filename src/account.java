@@ -32,7 +32,7 @@ public class account {
            totalSalary=extraCalculate()+calculate();
             System.out.println("Totalsalary is"+"\t"+totalSalary);
         }
-        else if(workingTime<=25 && workingTime>0) {
+        else if(workingTime<=25 && workingTime>=0) {
 
             totalSalary=calculate();
             System.out.println("Totalsalary is"+"\t"+totalSalary);
