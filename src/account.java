@@ -41,8 +41,11 @@ public class account {
        else {
 
             System.out.println("wrong input");
+
+
+            }
         }
-        }
+
 
     public static void main(String[] args) {
 
