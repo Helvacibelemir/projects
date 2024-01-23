@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class HataAyıklama {
+public class HataAyiklama {
 
 
     public static void DosyaOkuma() throws FileNotFoundException {
